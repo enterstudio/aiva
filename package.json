@@ -50,7 +50,7 @@
     "date.js": "^0.3.1",
     "express": "^4.13.4",
     "forever": "^0.15.2",
-    "hubot": "^2.18.0",
+    "hubot": "^3.1.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-fb": "^5.0.0",
     "hubot-slack": "^4.0.2",
@@ -63,10 +63,10 @@
     "portscanner": "^2.1.1",
     "randombytes": "^2.0.3",
     "require-dir": "^0.3.0",
-    "sequelize": "^3.24.3",
+    "sequelize": "^4.17.2",
     "socket.io-client": "^2.0.2",
     "winston": "^2.2.0",
-    "snyk": "^1.41.1"
+    "snyk": "^1.165.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
