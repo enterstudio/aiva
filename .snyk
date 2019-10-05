@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -70,3 +70,20 @@ patch:
         patched: '2017-09-30T00:59:10.012Z'
     - cgkb > spacy-nlp > poly-socketio > socket.io-client > socket.io-parser > debug:
         patched: '2017-09-30T00:59:10.012Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T03:59:56.700Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T03:59:56.700Z'
+    - poly-socketio > snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T03:59:56.700Z'
+    - poly-socketio > snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T03:59:56.700Z'
+    - cgkb > spacy-nlp > snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T03:59:56.700Z'
+    - cgkb > spacy-nlp > snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T03:59:56.700Z'
+    - cgkb > spacy-nlp > poly-socketio > snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T03:59:56.700Z'
+    - cgkb > spacy-nlp > poly-socketio > snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T03:59:56.700Z'
